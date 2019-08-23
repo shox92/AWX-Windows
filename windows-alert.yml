@@ -1,3 +1,4 @@
+---
 - name: Windows-Update-Alerts
   win_toast:
     expire: 60
