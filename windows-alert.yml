@@ -1,4 +1,4 @@
-- name: Warn logged in users of impending update (note use of async to stop the module from waiting until notification expires).
+- name: Windows-Update-Alerts
   win_toast:
     expire: 60
     title: System Update Notification
